@@ -1,0 +1,40 @@
+{
+  "name": "uon.world",
+  "version": "0.1.0",
+  "description": "An Entity-Component-System library",
+  "main": "uon.world.js",
+  
+   "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  
+  "dependencies": {
+
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uon-team/uon.world.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Gabriel Roy",
+    "email": "gab@uon.io",
+    "url": "https://uon.io"
+  },
+  "keywords": [
+	"world",
+	"ecs",
+    "uon",
+    "3d"
+  ]
+}
